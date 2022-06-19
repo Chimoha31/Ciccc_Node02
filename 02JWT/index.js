@@ -39,7 +39,7 @@ app.listen(PORT, (req, res) => {
 
 // We always save password in encrypted format so that no one knows what the password is
 
-const express = require("express");
-const app = express();
+// const express = require("express");
+// const app = express();
 
 app.use(express.static("public"));
